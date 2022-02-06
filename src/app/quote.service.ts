@@ -9,10 +9,10 @@ import { Quote } from './quote';
 export class QuoteService {
 
   quotes: Quote[] = [
-    new Quote(uuid(), 'I lie down and sleep; I wake again, because the Lord sustains me.', 'Psalms3:5',0,0,'Maureen Murugi', new Date(2021,2,07),false),
-    new Quote(uuid(), 'And the words of the Lord are flawless, like silver refined in a furnace of clay, purified seven times', 'Psalms12:6',0,0,'MBernice Adhiambo', new Date(2021,1,07),false),
+    new Quote(uuid(), 'I lie down and sleep; I wake again, because the Lord sustains me.', 'Psalms3:5',0,0,'Maureen Murugi', new Date(2021,2,12),false),
+    new Quote(uuid(), 'And the words of the Lord are flawless, like silver refined in a furnace of clay, purified seven times', 'Psalms12:6',0,0,'MBernice Adhiambo', new Date(2021,1,13),false),
     new Quote(uuid(), 'Surely God is my salvation, I will trust and not be afraid', 'Isaiah12:2',0,0,'Keziah Mbatha', new Date(2021,2,14),false),
-    new Quote(uuid(), 'If you do not get it forget about it ', 'Random',0,0,'Maurice Njoroge', new Date(2021,2,07),false),
+    new Quote(uuid(), 'If you do not get it forget about it ', 'Random',0,0,'Maurice Njoroge', new Date(2021,2,11),false),
 
   ];
 

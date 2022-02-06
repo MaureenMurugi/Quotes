@@ -1,7 +1,10 @@
 export class Quote {
-  showQuoteDetails !: boolean;
-  upvotes: any;
-  downvotes: any;
-  isFavorite !: boolean;
-  quote: any;
+  showQuoteDetails!: boolean;
+
+  constructor(public id: string, public quote: string, public author: string,
+    public upvotes: number, public downvotes: number, public submitted_by: string,
+    public created_at: Date, public isFavorite: boolean){
+
+    }
+ 
 }
