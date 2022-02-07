@@ -1,11 +1,14 @@
-import { Injectable } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { Quote } from '../quote';
 
 
 
 @Injectable({
   providedIn: 'root'
+
+  
 })
+
 export class QuoteService {
 
   quotes: Quote[] = [
@@ -19,15 +22,15 @@ export class QuoteService {
   getQuotes(){
     return this.quotes;
   }
-  addQuote(quote:any){
-    quote.quote  = quote.quote;
-    quote.author  = quote.author;
-    quote.upvotes = 0;
-    quote.downvotes  = 0;
-    quote.submitted_by  = quote.submitted_by;
-    quote.created_at  = new Date(quote.created_at);
-    quote.isFavorite  = false;
-    this.quotes.unshift(quote);
+   addQuote(quote:any){
+     quote.quote  = quote.quote;
+     quote.author  = quote.author;
+     quote.upvotes = 0;
+     quote.downvotes  = 0;
+     quote.submitted_by  = quote.submitted_by;
+     quote.created_at  = new Date(quote.created_at);
+     quote.isFavorite  = false;
+     this.quotes.unshift(quote);
 
   }
 
