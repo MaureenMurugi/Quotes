@@ -29,7 +29,7 @@
       <label>Submitted</label>
       <input type="text" name="submitted_by" class="form-control" required id="submitted_by"
         [(ngModel)]='model.submitted_by' #submitted_by='ngModel' />
-      <div [hidden]="submitted_by.valid || submitted_by.pristibe" class="alert alert-danger">
+      <div [hidden]="submitted_by.valid || submitted_by.pristine" class="alert alert-danger">
         Sbmitted By is required
       </div>
     </div>
