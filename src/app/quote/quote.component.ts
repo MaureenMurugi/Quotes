@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { QuoteService } from '../quote.service';
+import { QuoteService } from '../quote-service/quote.service';
 
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
-  styleUrls: ['./quote.component.css']
+  styleUrls: ['./quote.component.css'],
+  providers: [QuoteService]
 })
 export class QuoteComponent implements OnInit {
 

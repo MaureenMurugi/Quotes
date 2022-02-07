@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { QuoteService } from './quote-service/quote.service';
 
 import { FormsModule } from '@angular/forms';
 
@@ -10,6 +11,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { TimeCountPipe } from './time-count.pipe';
+
 
 
 @NgModule({
@@ -26,7 +28,7 @@ import { TimeCountPipe } from './time-count.pipe';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [QuoteService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

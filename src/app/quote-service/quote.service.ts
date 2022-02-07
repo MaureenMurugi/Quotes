@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { v4 } from 'uuid';
-import { Quote } from './quote';
+import { Quote } from '../quote';
+
 
 
 @Injectable({
