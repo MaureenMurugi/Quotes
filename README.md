@@ -38,7 +38,7 @@
 
 ## Live Application
 
-> The project is live at ''
+> The project is live at 'https://maureenmurugi.github.io/Quotes/Quotes/'
 
 
 ## Contact Information
