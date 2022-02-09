@@ -10,7 +10,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+   background-color: burlywood;
     color: white;
     font-weight: 600;
 }
@@ -20,6 +20,7 @@
 }
 .content {
     display: flex;
+    background-image: url(../app/images/quote.jpg);
     margin: 8% 0% 2% 12.5%;
     padding: 0 16px;
     max-width: 960px;
