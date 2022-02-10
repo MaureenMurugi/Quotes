@@ -24,7 +24,7 @@ export class QuoteComponent implements OnInit {
    addQuote(quote:any){
      quote.quote  = quote.quote;
      quote.author  = quote.author;
-     quote.upvotes = 0;
+     quote.upvotes = 1;
      quote.downvotes  = 0;
      quote.submitted_by  = quote.submitted_by;
      quote.created_at  = new Date(quote.created_at);
