@@ -11,10 +11,10 @@ import { QuoteService } from '../quote-service/quote.service';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-    new Quote( 'I lie down and sleep; I wake again, because the Lord sustains me.', 'Psalms3:5',0,0,'Maureen Murugi', new Date(2021,2,12),false),
-    new Quote( 'And the words of the Lord are flawless, like silver refined in a furnace of clay, purified seven times', 'Psalms12:6',0,0,'MBernice Adhiambo', new Date(2021,1,13),false),
-    new Quote( 'Surely God is my salvation, I will trust and not be afraid', 'Isaiah12:2',0,0,'Keziah Mbatha', new Date(2021,2,14),false),
-    new Quote( 'If you do not get it forget about it ', 'Random',0,0,'Maurice Njoroge', new Date(2021,2,11),false),
+    new Quote( 'I lie down and sleep; I wake again, because the Lord sustains me.', 'Psalms3:5',0,0,'Maureen Murugi', new Date(2022,2,12),false),
+    new Quote( 'And the words of the Lord are flawless, like silver refined in a furnace of clay, purified seven times', 'Psalms12:6',0,0,'MBernice Adhiambo', new Date(2022,2,1),false),
+    new Quote( 'Surely God is my salvation, I will trust and not be afraid', 'Isaiah12:2',0,0,'Keziah Mbatha', new Date(2022,2,9),false),
+    new Quote( 'If you do not get it forget about it ', 'Random',0,0,'Maurice Njoroge', new Date(2022,2,11),false),
 
   ];
 
